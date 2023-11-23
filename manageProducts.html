@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Add new Product</h1>
+<input type="text" placeholder="New Product" id="inputProduct">
+<button id="add" onclick="addProduct()">Add</button>
+<h2>Display all product</h2>
+<table border="1">
+    <tr>
+        <th colspan="3">Product Name</th>
+
+    </tr>
+    <tbody id="productList" >
+
+    <tr>
+        <td>Iphone 14 Pro Max</td>
+        <td><button>Edit</button></td>
+        <td><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>Iphone 15 Pro Max</td>
+        <td><button>Edit</button></td>
+        <td><button>Delete</button></td>
+    </tr>
+    </tbody>
+</table>
+<script src="manageProduct.js"></script>
+</body>
+</html>
